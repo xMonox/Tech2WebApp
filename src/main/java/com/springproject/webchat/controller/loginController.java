@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class loginController {
+
     @RequestMapping("/userName")
     public String userName(@RequestParam(value="name", required=false, defaultValue="Chat")String name, Model model) {
         model.addAttribute("name", name);
