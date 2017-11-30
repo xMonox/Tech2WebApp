@@ -32,6 +32,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 CMD ["/sbin/my_init"]
 
-
-
-#$ docker run --awsdb01 -e MYSQL_ROOT_PASSWORD=PoniesHatePotatoes01! -d mysql:tag
+$ docker run --awsdb01 -e MYSQL_ROOT_PASSWORD=PoniesHatePotatoes01! -d mysql

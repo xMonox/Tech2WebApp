@@ -9,9 +9,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class loginController {
 
-    @RequestMapping("/userName")
+    /*@RequestMapping("/userName")
     public User userName(@RequestParam(value="name", required=false, defaultValue="userName")String name, Model model) {
         //model.addAttribute("name", name);
         return new User(name);
+    }*/
+
+    @RequestMapping
+
+    public String index() {
+
+        return "Fuck the World";
     }
 }
