@@ -18,7 +18,6 @@ public class loginController {
     @RequestMapping
 
     public String index() {
-
-        return "Fuck the World";
+        return "Fuck off World";
     }
 }
