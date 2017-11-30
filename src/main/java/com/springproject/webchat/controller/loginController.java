@@ -16,7 +16,6 @@ public class loginController {
     }*/
 
     @RequestMapping
-
     public String index() {
         return "Fuck off World!!";
     }
