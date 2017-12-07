@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.springproject</groupId>
-	<artifactId>webchat</artifactId>
+	<artifactId>Tech2WebApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>webchat</name>
+	<name>Tech2WebApp</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
